@@ -1,2 +1,2 @@
 local sh = require("shell")
-  sh.execute("/SecuritySystem/sys.lua")
+  sh.execute("/SecuritySystem/k.lua")
