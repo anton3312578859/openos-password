@@ -1,0 +1,4 @@
+local os = require("os")
+local ps = require("computer")
+os.execute("/SecuritySystem/sys.lua")
+pc.shutdown()
