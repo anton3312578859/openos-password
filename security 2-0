@@ -1,0 +1,21 @@
+local io = require("io")
+local term =  require("term")
+local sh = require("shell")
+local os = require("os")
+local computer = require("computer")
+local password = "0000"
+  term.clear()
+  print("Security System | Login")
+  print("")
+   function login()
+    print("Enter password")
+    pass = io.read()
+    if pass == password then
+      sh.execute("sh")
+    else
+      print("Wrong password")
+      os.sleep(1)
+      login()
+    end
+  end
+login()
