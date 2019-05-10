@@ -11,7 +11,7 @@ do
     return load(buffer, "=" .. file, "bt", _G)
   end
   loadfile("/lib/core/boot.lua")(loadfile)
-  loadfile("/SecuritySystem/sys.lua")(loadfile)
+  loadfile("/SecuritySystem/k.lua")(loadfile)
 end
 
 while true do
